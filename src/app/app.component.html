@@ -1,0 +1,7 @@
+<app-content-projection>
+    <app-content-child></app-content-child>
+</app-content-projection>
+<h2>From Serice</h2>
+<input type="text"
+       [value]="authServe.user"
+       (input)="authServe.user = $event.target.value">
